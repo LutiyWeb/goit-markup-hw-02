@@ -181,10 +181,28 @@ body {
 
 /* footer */
 
-.footer-adress {
+.footer {
+  background-color: var(--main-bg-color);
+}
+
+.footer .logo {
+  color: var(--white-color);
+}
+
+.footer-address p,
+.footer-address a {
+  font-style: normal;
+}
+.footer-address p {
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--white-color);
+  letter-spacing: 0.03em;
+}
+
+.footer-address a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--white-color);
-  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
