@@ -94,7 +94,7 @@ body {
 }
 
 .offer-btn:hover {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 /* benefits */
@@ -190,6 +190,7 @@ body {
   letter-spacing: 0.03em;
   font-family: inherit;
   background-color: var(--grey-color);
+  cursor: pointer;
 }
 
 .filters-btn:hover {
