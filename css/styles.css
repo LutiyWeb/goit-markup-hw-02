@@ -9,7 +9,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
 }
 
 /* header */
@@ -38,6 +37,12 @@ body {
   line-height: 1.4;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.menu-link.studio,
+.menu-link.portfolio {
+  color: var(--accent-color);
 }
 
 .menu-link:focus,
@@ -52,6 +57,12 @@ body {
 .contacts-link {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contacts-link:hover {
+  color: var(--accent-color);
 }
 
 /* main */
@@ -80,6 +91,10 @@ body {
   font-family: inherit;
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.offer-btn:hover {
+  color: #188ce8;
 }
 
 /* benefits */
@@ -111,6 +126,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .about-list {
@@ -118,9 +134,21 @@ body {
 }
 
 /* team */
+.team {
+  background-color: var(--grey-color);
+}
 
 .team-list {
   list-style: none;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 .team-name {
@@ -145,11 +173,14 @@ body {
 
 .filters-item {
   border-radius: 4px;
-  background-color: var(--grey-color);
 }
 
 .filters-item:last-child {
   margin-right: 0;
+}
+
+.filters-grid {
+  list-style: none;
 }
 
 .filters-btn {
@@ -158,6 +189,7 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   font-family: inherit;
+  background-color: var(--grey-color);
 }
 
 .filters-btn:hover {
@@ -200,9 +232,14 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-address a {
+.footer-contacts-link {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contacts-link:hover {
+  color: var(--white-color);
 }
